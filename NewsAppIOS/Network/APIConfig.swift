@@ -27,7 +27,6 @@ class APIConfig{
             else if let data = data{
                 do{
                     let result = try JSONDecoder().decode(NewsResponse.self, from: data)
-                    print("status : \(result.status)")
                     completion(.success(result.self))
                     
                 }catch{

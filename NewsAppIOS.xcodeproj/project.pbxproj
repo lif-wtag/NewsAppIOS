@@ -109,6 +109,7 @@
 		7648FA112A5D024F009A751E /* NewsAppIOS */ = {
 			isa = PBXGroup;
 			children = (
+				767D64652A5D421D0057D792 /* Network */,
 				767D64602A5D20600057D792 /* ViewModel */,
 				767D645D2A5D168B0057D792 /* Utils */,
 				7648FA122A5D024F009A751E /* AppDelegate.swift */,
@@ -118,7 +119,6 @@
 				7648FA1B2A5D0250009A751E /* Assets.xcassets */,
 				7648FA1D2A5D0250009A751E /* LaunchScreen.storyboard */,
 				7648FA202A5D0250009A751E /* Info.plist */,
-				767D64582A5D0CFC0057D792 /* APIConfig.swift */,
 				767D645A2A5D131A0057D792 /* Models */,
 				767D64632A5D2B600057D792 /* NewsTableViewCell.swift */,
 			);
@@ -164,6 +164,14 @@
 				767D64612A5D207A0057D792 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		767D64652A5D421D0057D792 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				767D64582A5D0CFC0057D792 /* APIConfig.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
